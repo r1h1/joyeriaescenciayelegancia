@@ -91,6 +91,14 @@ main .catalogo-image {
     height: auto;
 }
 
+main .contact-image {
+    background-image: url('../img/call-center-que-es.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
 section .div-text-2 {
     padding: 10vh;
     height: auto;
