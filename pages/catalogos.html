@@ -25,7 +25,8 @@
                     <img src="../assets/img/istockphoto-1427466087-612x612.jpg" class="d-block w-100" alt="Imagen 1">
                     <div class="carousel-caption d-block d-md-block">
                         <h4>Nuestro catálogo</h4>
-                        <a class="btn btn-outline-light fw-bold mt-3" href="#catalogo">Desliza hacia abajo para descargar</a>
+                        <a class="btn btn-outline-light fw-bold mt-3" href="#catalogo">Desliza hacia abajo para
+                            descargar</a>
                     </div>
                 </div>
             </div>
@@ -62,12 +63,14 @@
                     oro laminado, asegurando la mejor calidad y precio para ti.
                 </p>
                 <div class="text-center">
-                    <a href="https://wa.me/50258374982?text=Quiero%20solicitar%20joyeria%20desde%20la%20web"
-                        target="_blank" class="btn fw-bold text-dark">Descarga el catálogo aquí</a>
+                    <a href="../assets/pdfs/Blank.pdf" target="_blank" class="btn fw-bold text-dark" download>Descarga
+                        el
+                        catálogo aquí</a>
+                    <a target="_blank" class="btn fw-bold text-dark" onclick="openPDF()">Ve el catálogo</a>
                 </div>
             </div>
-            <div class="col-lg-6 catalogo-image">
-                <!-- catalogo image -->
+            <div class="col-lg-6 catalogo-image" onclick="openPDF()">
+                <!-- catalogo -->
             </div>
         </div>
     </main>
@@ -87,6 +90,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        function openPDF() {
+            window.open('../assets/pdfs/Blank.pdf', '_blank');
+        }
+    </script>
 </body>
 
 </html>
