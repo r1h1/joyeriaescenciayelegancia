@@ -55,7 +55,7 @@ main .div-text {
 
 main .div-text h1 {
     margin-top: 5vh;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
 }
@@ -83,6 +83,14 @@ section .second-welcome-image {
     height: auto;
 }
 
+main .catalogo-image {
+    background-image: url('../img/catalogo-diseno-grafico.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
 section .div-text-2 {
     padding: 10vh;
     height: auto;
@@ -90,7 +98,7 @@ section .div-text-2 {
 
 section .div-text-2 h2 {
     margin-top: 5vh;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
 }
