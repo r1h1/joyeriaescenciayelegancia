@@ -193,6 +193,16 @@ footer p {
         text-align: justify;
     }
 
+    main .contact-options ul {
+        margin-bottom: 5vh;
+        padding-left: 2vh;
+        font-size: 12px;
+    }
+
+    main a{
+        font-size: 12px;
+    }
+
     footer ul li {
         font-size: 12px;
     }
