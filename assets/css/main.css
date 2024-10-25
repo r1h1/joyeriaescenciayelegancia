@@ -61,7 +61,7 @@ main .div-text h1 {
 }
 
 main .div-text p {
-    padding: 6vh;
+    padding: 5vh;
     font-size: 15px;
     text-align: justify;
 }
@@ -98,6 +98,12 @@ main .contact-image {
     background-repeat: no-repeat;
     background-position: center;
     height: auto;
+    display: block;
+}
+
+main .contact-options ul {
+    margin-bottom: 5vh;
+    padding-left: 5vh;
 }
 
 section .div-text-2 {
@@ -133,6 +139,15 @@ footer p {
         background-repeat: no-repeat;
         background-position: center;
         height: 40vh;
+        display: block;
+    }
+
+    main .contact-image {
+        background-image: url('../img/call-center-que-es.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 20vh;
         display: block;
     }
 }
