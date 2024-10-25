@@ -131,12 +131,6 @@ footer p {
         font-size: 15px;
     }
 
-    .carousel-item img {
-        object-fit: contain;
-        height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
-        width: 100vw;
-    }
-
     main .div-text {
         padding: 4vh;
         height: auto;
